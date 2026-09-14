@@ -891,7 +891,7 @@
       <span class="spacer"></span>
       <span class="name">The Guarantee</span>
       <span class="spacer"></span>
-      <span class="right" id="foSlotMarker">04 / 05 slots open</span>
+      <span class="right" id="foSlotMarker">02 / 05 slots open</span>
     </div>
     <div class="fo-card">
       <div class="fo-left">
@@ -902,11 +902,11 @@
         <p class="fo-blurb" style="font-size:14px;color:var(--muted);margin-bottom:16px">And because we're new, our first five customers get <b style="color:var(--ink)">20% off</b> on top of the cap.</p>
         <div class="fo-counter" id="foCounter">
           <span class="fo-dot filled"></span>
+          <span class="fo-dot filled"></span>
+          <span class="fo-dot filled"></span>
           <span class="fo-dot open"></span>
           <span class="fo-dot open"></span>
-          <span class="fo-dot open"></span>
-          <span class="fo-dot open"></span>
-          <span class="fo-counter-lab" id="foSlotLabel">4 of 5 founding slots open</span>
+          <span class="fo-counter-lab" id="foSlotLabel">2 of 5 founding slots open</span>
         </div>
         <div class="fo-cta">
           <a href="#quote" class="btn btn-primary btn-lg" data-src="founding-offer">Get Your Capped Quote
@@ -1352,7 +1352,7 @@
      Update this ONE number as founding slots fill (0–5). Everything on the
      Founding Customer Offer reads from it: the dots, the "X of 5" label, and
      the "0X / 05 slots open" marker. No other edits needed. */
-  const FOUNDING_SLOTS_OPEN = 4;
+  const FOUNDING_SLOTS_OPEN = 2;
   (function renderFoundingSlots(){
     const total = 5;
     const open = Math.max(0, Math.min(total, FOUNDING_SLOTS_OPEN));
